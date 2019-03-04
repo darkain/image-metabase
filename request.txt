@@ -1,0 +1,9 @@
+Hello!  My team and I are working on a cross-site cosplay image indexing and searching service.  How the service works is like this:  Our server indexes a page (or site) that contains cosplay images on them, it then creates thumbnails of those images and then stores them locally.  This part of the system works basically the same way as Yahoo/Google image search work.  The other part of this system is a tagging system.  Any of the users of the system can apply any number of tags to each image.  This can be thought of like how Flickr does tags, but without being an actual image hosting service.
+
+Currently, this new system is still in development and testing phases.  We have a publically available implementation of this system right now.  Here is a good example of what one of the image pages with tags looks like:  http://cosplay.darkain.com/image.php?id=86
+
+My question to you is this:  What are the full image usage rights of the Cosplay Lab web site?  Would it be acceptable to index and thumbnail images from the Cosplay Lab site with links back to their original pages here?
+
+Please feel free to send any questions you may have about this service to darkain@thewiredcity.net.  I look forward to hearing from you!
+
+  -=- Darkain Dragoon -=-

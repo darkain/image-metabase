@@ -1,0 +1,116 @@
+[19:25:53] ^NoLaN^: to search WHAT is untagged, like 'pics with no char' 'pics with no universe' etc
+
+have a list of recently used tags for each user, for when they are adding tags to an image
+
+redirect tags, similar to redirect system on wikipedia
+
+clear out old session data
+
+"Mod only tags" : Tags viewable and editable only by mods/admins
+
+Slayers, Angelic Layer, Full Moon, YuGiOh, Pokémon, Soul Series, Shaman King, FMA, Ragnorock Online, Lineage, Tekken, Inuyahsa, Dragon Ball, Macross, Vampire Hunter D, Castlevania, Bleach, DDR, Beat Mania, Excel Saga, armatage
+
+
+
+// search needs to be updated, using regular expressions might be exploitable in some fashion
+// keywords on images page based on meta tags
+// BUG!  On images.php, $user_rights gets changed to 'owner', meaning mod/admin tool bars dont appear
+
+
+metamoderation system for moderators, similar to slashdot + google pagerank.  where users are giving mod points to mod things
+
+
+[16:14:43] MaxX Unlimited Z: while own-driven tagging is okay at best... user-driven tagging is just fucking awesome if done right
+[16:14:54] NoLaN w0rk: yeah
+[16:14:58] NoLaN w0rk: its multi-tiered though
+[16:15:02] NoLaN w0rk: in true optimism
+[16:15:06] NoLaN w0rk: which is you have weight
+[16:15:12] MaxX Unlimited Z: right
+[16:15:24] NoLaN w0rk: trusted users for one (Admins)
+[16:15:30] NoLaN w0rk: then you have a meta system
+[16:15:31] NoLaN w0rk: like /.
+[16:15:36] MaxX Unlimited Z: metabase was designed for that.... everyone has X number of points per vote, and X number of votes are requires to pass a vote
+[16:15:38] NoLaN w0rk: so like
+[16:15:57] NoLaN w0rk: you put so many of "guy x" changes as "good" and he is like +weight
+[16:16:04] MaxX Unlimited Z: and even adding in meta-moderation like slashdot would be great, where you could moderate others moderation
+[16:16:07] NoLaN w0rk: yeah
+[16:16:13] NoLaN w0rk: so voters get more power
+[16:16:19] MaxX Unlimited Z: right  :)
+[16:16:27] NoLaN w0rk: obviously that can be abused, but having lots of users support you falsely
+[16:16:40] NoLaN w0rk: but there are usually easier ways to violate a system like that anyway
+[16:16:55] MaxX Unlimited Z: well.... it can be handled like google pagerank
+[16:17:06] MaxX Unlimited Z: when you give someone a + or -, its also based on your current score as well
+[16:17:11] NoLaN w0rk: yeah
+[16:17:18] MaxX Unlimited Z: really, that would be fucking AWESOME
+[16:17:19] NoLaN w0rk: so if you have 100 noobs one day give you +
+[16:17:28] NoLaN w0rk: it would go 'well thats alot of people, but its alot of noobs'
+[16:17:31] MaxX Unlimited Z: and build something like google TBPR for final ranking in the system
+[16:17:40] NoLaN w0rk: and in fact rapid changes could even be a flag of the user
+[16:17:48] NoLaN w0rk: it wouldnt even be a good or bad flag really
+[16:17:51] NoLaN w0rk: just informative
+
+[16:18:09] NoLaN w0rk: i mean, if all of the sudden im really useful/acurate on my edits, it would be like 'new editor in town!' tag or something
+[16:18:21] MaxX Unlimited Z: heh, yea
+[16:18:21] NoLaN w0rk: which to admins is a 'is this guy a fake?' flag at the same time
+[16:18:31] NoLaN w0rk: which i think is really neat
+[16:18:48] MaxX Unlimited Z: man, metabase needs to be expanded, and put into full use
+[16:18:59] NoLaN w0rk: so you have like super-tiered metamoderation for the moderators modding the metabase
+[16:19:02] NoLaN w0rk: =P
+[16:19:08] NoLaN w0rk: woot
+[16:19:13] MaxX Unlimited Z: i need to make the "content" part of it more generic tho, move it away from images
+[16:19:18] NoLaN w0rk: /agree
+[16:19:30] NoLaN w0rk: it should be content, with attributes
+[16:19:37] MaxX Unlimited Z: images, videos, word docs, URL links, etc
+[16:19:39] NoLaN w0rk: generally one will be binary in nature
+[16:19:58] NoLaN w0rk: the binary attribute should be just an attribute though, but the 'primary' one
+[16:20:12] NoLaN w0rk: but i mean, you could use this for like, a dictionary
+[16:20:13] NoLaN w0rk: with words
+[16:20:35] NoLaN w0rk: where properties were like 'verb' and 'to throw through a window' and 'dr mcninja'
+[16:20:36] NoLaN w0rk: and stuff
+[16:20:43] NoLaN w0rk: (defenestrate)
+[16:21:10] MaxX Unlimited Z: so like a dictionary + thesaurous all at once
+[16:21:11] MaxX Unlimited Z: lol
+[16:21:12] NoLaN w0rk: (word type), (def), (reference of some sort)
+[16:21:13] NoLaN w0rk: yeah
+[16:21:18] NoLaN w0rk: i mean im just giving a random example
+[16:21:21] NoLaN w0rk: metabase can be anything
+[16:21:22] NoLaN w0rk: like rmx
+[16:21:25] MaxX Unlimited Z: right
+[16:21:29] MaxX Unlimited Z: man, fucking everythings...  :P
+[16:21:39] MaxX Unlimited Z: what is it with me and trying to do fucking EVERYTING?
+[16:21:40] NoLaN w0rk: ultimately everything you make can be everything/anything
+[16:21:44] NoLaN w0rk: dude i dunno
+[16:21:47] NoLaN w0rk: but its sweet
+[16:21:53] NoLaN w0rk: the only problem is theres so much to do
+[16:21:57] NoLaN w0rk: i dont know where to go
+[16:21:58] NoLaN w0rk: hehe
+[16:21:58] MaxX Unlimited Z: yea
+[16:22:07] NoLaN w0rk: its like 'here, do anything'
+[16:22:11] NoLaN w0rk: wtf do you do
+[16:22:12] NoLaN w0rk: heh
+[16:22:19] MaxX Unlimited Z: its extremely hard to market
+[16:22:30] NoLaN w0rk: i still want to find you investors to get some high end marketable examples o frmx
+[16:22:39] NoLaN w0rk: like the irrigation system
+[16:22:59] MaxX Unlimited Z: wwweeeelllllllllll..... if i take this opportunity at X10..... heh... ;)
+[16:23:52] NoLaN w0rk: or whole green house thing for that matter, i mean, controlled lights, curtains, fans, watering, plant soil-water saturation monitor, problem alert system (system calls your cel phone, emails you, etc)
+[16:24:05] NoLaN w0rk: i mean, man
+[16:24:08] NoLaN w0rk: anything
+[16:24:40] MaxX Unlimited Z: thats what i need
+[16:24:43] MaxX Unlimited Z: email plugin for rmx
+[16:24:44] MaxX Unlimited Z: :)
+[16:24:46] NoLaN w0rk: yeah
+[16:24:51] NoLaN w0rk: you need an output
+[16:24:57] NoLaN w0rk: you need more output plugins
+[16:25:06] NoLaN w0rk: heh
+[16:25:19] MaxX Unlimited Z: what i need, is to finish this "logging" system i'm working on
+[16:25:21] NoLaN w0rk: you have http, right? thats io(in/out)
+[16:25:24] MaxX Unlimited Z: which handles auto-generated events
+[16:25:31] NoLaN w0rk: mm, yeah
+[16:25:33] MaxX Unlimited Z: basic HTTP, that i want to re-do
+[16:25:37] NoLaN w0rk: ok
+[16:25:47] NoLaN w0rk: yeah the logging system would just be a handler really
+[16:26:21] NoLaN w0rk: one plugin does log->(error,me[the plugin itself],"Telnet Connection Dropped")
+[16:26:37] NoLaN w0rk: then the output plugin would grab anything of say "error" level and email it
+[16:27:05] MaxX Unlimited Z: i already have "error" style notifications, fuck, i should do hooks on that.
+[16:27:08] NoLaN w0rk: Emailto: blah@.... [ ] Errors [ ] Warnings
+[16:27:12] NoLaN w0rk: etc
